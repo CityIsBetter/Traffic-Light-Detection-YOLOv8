@@ -51,11 +51,7 @@ pip install -r requirements.txt
   <img src="train-metrics/confusion_matrix.png" alt="Confusion Matrix" width="400" height="300" />
 
 - **Overall Metrics:**
-  Here, you would include an image that displays overall performance metrics such as accuracy, precision, recall, etc., across different classes.
-  
-  ```md
   <img src="train-metrics/results.png" alt="Overall Metrics" />
-  ```
 
 For more detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance_evaluation) files.
 
