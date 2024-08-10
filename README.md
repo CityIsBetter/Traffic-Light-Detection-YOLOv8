@@ -1,37 +1,47 @@
-TRAFFIC LIGHT DETECTION AND CLASSIFICATION
+# Traffic Light Detection and Classification
 
-PROJECT OVERVIEW : 
+## Project Overview
 
-The Traffic Light Detection and Classification project aims to enhance autonomous driving systems by providing accurate traffic light detection and classification. The model is designed to generate appropriate physical responses for vehicles equipped with it. This project is part of a larger hardware initiative that is still under development, focusing on the practical implementation of the model.
+The **Traffic Light Detection and Classification** project aims to enhance autonomous driving systems by accurately detecting and classifying traffic lights. The model is designed to generate appropriate physical responses for vehicles equipped with it. This project is part of a larger hardware initiative, currently under development, focusing on the practical implementation of the model.
 
-TEAM MEMBERS : 
+## Team Members
 
-1. Mahesh Paul J
-2. Pranav T
-3. G Sai Vasanth
+1. [Mahesh Paul J](#)
+2. [Pranav T](#)
+3. [G Sai Vasanth](#)
 
-INSTALLATION AND DEPENDENCIES: 
+## Installation and Dependencies
 
-Please refer to the requirements.txt file for a comprehensive list of dependencies required to run this project.
+To set up the project locally, please ensure all dependencies listed in the [`requirements.txt`](./requirements.txt) file are installed. You can install them using the following command:
 
-FEATURES: 
+```bash
+pip install -r requirements.txt
+```
 
-Autonomous detection and classification of traffic lights
-Generates appropriate responses based on detected traffic lights
-Integrates with hardware systems for practical implementation
+## Features
 
+- **Autonomous Detection and Classification of Traffic Lights:** The model can autonomously detect and classify traffic lights in various environments.
+- **Adaptive Response Generation:** Generates appropriate responses based on the detected traffic lights.
+- **Hardware Integration:** Seamlessly integrates with hardware systems for practical real-world implementation.
 
-DATA: 
+## Data
 
-Approximately 30% images collected by the team
-Remaining images sourced from the internet
-A total of 1713 images used for training, validation, and testing
-Images were augmented to triple the original dataset size. Cropping, Rotation, Adjustment of brightness levels and adjustment of noise levels in the images were part of the augmentation process.
-The dataset maintains an almost equal ratio of all classes for training and testing, with minor differences
-Challenges and Solutions
-One major challenge encountered was false positive detections. This issue was addressed by incorporating appropriately labeled negative images into the training dataset.
+- **Data Collection:** 
+  - Approximately 30% of the images were collected by the team.
+  - The remaining images were sourced from the internet.
+  
+- **Dataset Details:**
+  - A total of 1,713 images were used for training, validation, and testing.
+  - Images were augmented to triple the original dataset size. Augmentation techniques included cropping, rotation, brightness adjustment, and noise addition.
+  - The dataset maintains an almost equal ratio of all classes for training and testing, with minor differences.
 
-PERFORMANCE EVALUATION: 
-Final accuracy levels and performance metrics are detailed in the performance evaluation files.
+- **Challenges and Solutions:**
+  - **False Positive Detections:** One major challenge encountered was false positive detections. This issue was addressed by incorporating appropriately labeled negative images into the training dataset.
 
+## Performance Evaluation
 
+For detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance_evaluation) files.
+
+---
+
+*This project is continuously evolving. Contributions and feedback are welcome!*
