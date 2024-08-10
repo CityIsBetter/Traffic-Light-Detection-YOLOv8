@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
  | **F1 Curve:** | **Confusion Matrix:** |
  | --- | --- |
- | <img src="train-metrics/F1_curve.png" alt="F1 Curve" height="500" /> | <img src="train-metrics/confusion_matrix.png" alt="Confusion Matrix" height="500" /> |
+ | <img src="train-metrics/F1_curve.png" alt="F1 Curve"  /> | <img src="train-metrics/confusion_matrix.png" alt="Confusion Matrix"  /> |
 
 - **Overall Metrics:** <img src="train-metrics/results.png" alt="Overall Metrics" />
 
