@@ -1,4 +1,4 @@
-from YOLOv8 import YOLO
+from ultralytics import YOLO
 import cv2
 import math 
 
@@ -6,7 +6,7 @@ import math
 cap = cv2.VideoCapture(0)
 
 
-model = YOLO(r"D:\Mahesh\Coding files\traffic-light-detection\yolo\best weights\v9 - 64 epochs.pt")
+model = YOLO("weights/v9 - 64 epochs.pt")
 
 # object classes
 classNames = ["green", "red", "yellow"]
