@@ -1,4 +1,3 @@
-
 # Traffic Light Detection and Classification
 
 ## Project Overview
@@ -33,18 +32,32 @@ pip install -r requirements.txt
   
 - **Dataset Details:**
   - A total of 1,713 images were used for training, validation, and testing.
+  <img src="train-metrics/dataset-split.png" alt="Dataset Split" width="400" height="200" />
   - Images were augmented to triple the original dataset size. Augmentation techniques included cropping, rotation, brightness adjustment, and noise addition.
   - The dataset maintains an almost equal ratio of all classes for training and testing, with minor differences.
+  <img src="train-metrics/class-split.png" alt="Class Split" width="400" height="200" />
 
 - **Challenges and Solutions:**
   - **False Positive Detections:** One major challenge encountered was false positive detections. This issue was addressed by incorporating appropriately labeled negative images into the training dataset.
 
- ![WhatsApp Image 2024-08-10 at 14 20 08](https://github.com/user-attachments/assets/a02eecfc-66fd-4568-be60-18df5a2c5eca)
-![WhatsApp Image 2024-08-10 at 14 20 59](https://github.com/user-attachments/assets/408a100f-df34-47e8-a385-10498449bb61)
-
 ## Performance Evaluation
 
-For detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance_evaluation) files.
+### Model Evaluation Metrics
+
+- **F1 Curve:**
+  <img src="train-metrics/F1_curve.png" alt="F1 Curve" width="300" height="300" />
+
+- **Confusion Matrix:**
+  <img src="train-metrics/confusion_matrix.png" alt="Confusion Matrix" width="400" height="300" />
+
+- **Overall Metrics:**
+  Here, you would include an image that displays overall performance metrics such as accuracy, precision, recall, etc., across different classes.
+  
+  ```md
+  <img src="train-metrics/results.png" alt="Overall Metrics" />
+  ```
+
+For more detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance_evaluation) files.
 
 ---
 
