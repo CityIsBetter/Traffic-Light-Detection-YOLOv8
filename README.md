@@ -40,8 +40,8 @@ pip install -r requirements.txt
   - **False Positive Detections:** One major challenge encountered was false positive detections. This issue was addressed by incorporating appropriately labeled negative images into the training dataset.
 
 
-<img src="https://github.com/user-attachments/assets/a02eecfc-66fd-4568-be60-18df5a2c5eca" alt="WhatsApp Image 2024-08-10 at 14 20 08" width="300"/>
-<img src="https://github.com/user-attachments/assets/408a100f-df34-47e8-a385-10498449bb61" alt="WhatsApp Image 2024-08-10 at 14 20 59" width="300"/>
+<img src="https://github.com/user-attachments/assets/a02eecfc-66fd-4568-be60-18df5a2c5eca" alt="WhatsApp Image 2024-08-10 at 14 20 08" width="300" height="300"/>
+<img src="https://github.com/user-attachments/assets/408a100f-df34-47e8-a385-10498449bb61" alt="WhatsApp Image 2024-08-10 at 14 20 59" width="300" height= "300"/>
 
 
 ## Performance Evaluation
