@@ -1,4 +1,5 @@
 # Traffic Light Detection and Classification
+<img src="train-metrics/val_batch1_pred.jpg" alt="Traffic Light Detection" height="500"/>
 
 ## Project Overview
 
@@ -31,11 +32,9 @@ pip install -r requirements.txt
   - The remaining images were sourced from the internet.
   
 - **Dataset Details:**
-  - A total of 1,713 images were used for training, validation, and testing.
-  <img src="train-metrics/dataset-split.png" alt="Dataset Split" width="400" height="200" />
+  - A total of 1,713 images were used for training, validation, and testing.   <img src="train-metrics/dataset-split.png" alt="Dataset Split"  />
   - Images were augmented to triple the original dataset size. Augmentation techniques included cropping, rotation, brightness adjustment, and noise addition.
-  - The dataset maintains an almost equal ratio of all classes for training and testing, with minor differences.
-  <img src="train-metrics/class-split.png" alt="Class Split" width="400" height="200" />
+  - The dataset maintains an almost equal ratio of all classes for training and testing, with minor differences.  <img src="train-metrics/class-split.png" alt="Class Split"  />
 
 - **Challenges and Solutions:**
   - **False Positive Detections:** One major challenge encountered was false positive detections. This issue was addressed by incorporating appropriately labeled negative images into the training dataset.
@@ -43,17 +42,15 @@ pip install -r requirements.txt
 ## Performance Evaluation
 
 ### Model Evaluation Metrics
+<img src="performance-insights/v9 - 64 epochs.png" alt="mAP" />
 
-- **F1 Curve:**
-  <img src="train-metrics/F1_curve.png" alt="F1 Curve" width="300" height="300" />
+ | **F1 Curve:** | **Confusion Matrix:** |
+ | --- | --- |
+ | <img src="train-metrics/F1_curve.png" alt="F1 Curve" height="500" /> | <img src="train-metrics/confusion_matrix.png" alt="Confusion Matrix" height="500" /> |
 
-- **Confusion Matrix:**
-  <img src="train-metrics/confusion_matrix.png" alt="Confusion Matrix" width="400" height="300" />
+- **Overall Metrics:** <img src="train-metrics/results.png" alt="Overall Metrics" />
 
-- **Overall Metrics:**
-  <img src="train-metrics/results.png" alt="Overall Metrics" />
-
-For more detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance_evaluation) files.
+For more detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance-insights) and [Train Metrics](./train-metrics) files.
 
 ---
 
