@@ -6,9 +6,9 @@ The **Traffic Light Detection and Classification** project aims to enhance auton
 
 ## Team Members
 
-1. [Mahesh Paul J](#)
-2. [Pranav T](#)
-3. [G Sai Vasanth](#)
+1. [Mahesh Paul J](https://github.com/CityIsBetter)
+2. [Pranav T](https://github.com/Pranav0518)
+3. [G Sai Vasanth](https://github.com/saivasanthg)
 
 ## Installation and Dependencies
 
