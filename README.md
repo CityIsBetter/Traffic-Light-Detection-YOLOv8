@@ -1,3 +1,4 @@
+
 # Traffic Light Detection and Classification
 
 ## Project Overview
@@ -37,6 +38,9 @@ pip install -r requirements.txt
 
 - **Challenges and Solutions:**
   - **False Positive Detections:** One major challenge encountered was false positive detections. This issue was addressed by incorporating appropriately labeled negative images into the training dataset.
+
+ ![WhatsApp Image 2024-08-10 at 14 20 08](https://github.com/user-attachments/assets/a02eecfc-66fd-4568-be60-18df5a2c5eca)
+![WhatsApp Image 2024-08-10 at 14 20 59](https://github.com/user-attachments/assets/408a100f-df34-47e8-a385-10498449bb61)
 
 ## Performance Evaluation
 
