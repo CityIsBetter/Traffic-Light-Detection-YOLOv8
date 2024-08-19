@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 - **Overall Metrics:** <img src="train-metrics/results.png" alt="Overall Metrics" />
 
-For more detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance-insights) and [Train Metrics](./train-metrics) files.
+For more detailed information on final accuracy levels and performance metrics, please refer to the [Performance Evaluation](./performance-insights) and [Train Metrics](./train-metrics) given files.
 
 ---
 
